@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Clip Pipeline</title>
+<style>body{font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#1b1f23}
+h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:2rem}a{color:#0b5fff}nav a{margin-right:1rem}
+footer{margin-top:3rem;font-size:.9rem;color:#57606a}</style>
+</head>
+<body>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+
+<h1>Privacy Policy</h1>
+<p>Last updated: 2026-11-18</p>
+<p>Clip Pipeline ("the app") is a self-hosted tool operated by its owner on the owner's own
+computer. This policy explains what data the app handles.</p>
+
+<h2>Data the app handles</h2>
+<ul>
+<li><b>Google / YouTube account access.</b> When you connect a YouTube channel, the app (through a
+self-hosted Postiz instance) receives an OAuth token that lets it upload videos to that channel
+and read basic channel information. The token is stored only in the database of the owner's own
+server.</li>
+<li><b>TikTok account access.</b> The same applies to a connected TikTok account.</li>
+<li><b>Telegram data.</b> The Telegram user ID and chat ID of people allowed to use the bot, and
+the links, texts and videos they send or approve.</li>
+<li><b>Video content.</b> Clips downloaded from the links you send, the rendered videos, subtitles
+and generated titles and descriptions. Files are deleted automatically after a retention period
+(48 hours by default).</li>
+</ul>
+
+<h2>How the data is used</h2>
+<p>Data is used only to provide the function you asked for: processing a clip and publishing it to
+the channels you connected after you approved it. The app does not upload anything without your
+approval.</p>
+<p>Text from a clip (transcript, title and author name) is sent to a language model to generate
+the title, description and hashtags.</p>
+
+<h2>Sharing</h2>
+<p>The app does not sell data and does not share it with third parties, except with the services
+needed to do the job: YouTube and TikTok (to publish what you approved), Telegram (to talk to
+you) and the language model provider (to write the text).</p>
+
+<h2>Google API Services</h2>
+<p>The app's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements. By using YouTube features you also
+agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Retention and deletion</h2>
+<ul>
+<li>Media files are removed automatically after the retention period.</li>
+<li>You can revoke the app's access to your Google account at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, and to
+your TikTok account in the TikTok app settings.</li>
+<li>To have your stored data (tokens, job history) deleted, write to the contact address below
+and it will be removed.</li>
+</ul>
+
+<h2>Security</h2>
+<p>Secrets are kept in the owner's server configuration, access to the bot is limited to an
+allowlist of Telegram users, and the publishing service is reachable only from the owner's
+computer.</p>
+
+<h2>Changes</h2>
+<p>This policy may be updated; the date above shows the latest version.</p>
+
+<footer>Contact: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></footer>
+</body>
+</html>
